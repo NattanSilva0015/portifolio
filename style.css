@@ -1,0 +1,122 @@
+
+
+body {
+  background: linear-gradient(to bottom, #303F51, #34226C);
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.section-title {
+  text-align: center;
+  margin: 60px 0 30px;
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #7FE6E3;
+  margin: 10px auto 0;
+  border-radius: 4px;
+}
+
+.highlight {
+  color: #7FE6E3;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.progress {
+  background: #444;
+}
+
+.progress-bar {
+  background-color: #7FE6E3;
+}
+
+footer {
+  background: #2d1d5e;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 5px;
+}
+
+a {
+  color: #7FE6E3;
+  text-decoration: none;
+}
+
+.btn-custom {
+  background-color: #7FE6E3;
+  color: #000;
+}
+
+.form-control,
+.form-control:focus {
+  background-color: #ffffff;
+  border-color: #7FE6E3;
+  color: black;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #7FE6E3;
+  object-fit: cover;
+  margin: 20px auto;
+  display: block;
+}
+
+.edu-entry {
+  border-left: 4px solid #65f8e3;
+  padding-left: 15px;
+}
+
+.edu-entry .title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.edu-entry .institution {
+  color: #65f8e3;
+  font-weight: 500;
+}
+
+.edu-entry .details {
+  color: #bbb;
+}
+
+.content-project {
+  flex-grow: 1;
+  margin-bottom: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.badges-verticais {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding-left: 0.5rem;
+  margin-top: 1rem;
+}
+
+.badges-verticais .badge {
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: 0.5rem;
+}
