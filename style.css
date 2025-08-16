@@ -6,6 +6,16 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; /* remove barra de rolagem lateral */
+}
+
+img {
+  max-width: 100%; /* garante que imagens não estourem no mobile */
+  height: auto;
+}
+
 .section-title {
   text-align: center;
   margin: 60px 0 30px;
