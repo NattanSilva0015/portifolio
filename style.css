@@ -1,7 +1,9 @@
 
 
 body {
-  background: linear-gradient(to bottom, #303F51, #34226C);
+  /* background: linear-gradient(to bottom, #303F51, #34226C); */
+  background: linear-gradient(to bottom, #0f084b, #2f227e);
+  /* background: linear-gradient(to bottom, #0f084b, #26408b); */
   color: #ffffff;
   font-family: 'Segoe UI', sans-serif;
 }
@@ -29,7 +31,7 @@ img {
   display: block;
   width: 60px;
   height: 4px;
-  background-color: #7FE6E3;
+  background-color: #00b4d8;
   margin: 10px auto 0;
   border-radius: 4px;
 }
@@ -39,12 +41,22 @@ img {
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.05);
-  border: none;
+  /* background: rgba(255, 255, 255, 0.05); */
+  /* background: linear-gradient(135deg, #2f227e 60%, #0f084b 100%); */
+  background: #1E1267;
+  box-shadow: 0 2px 16px 0 #00000076;
+  border-radius: 10px;
   color: white;
   display: flex;
   flex-direction: column;
   height: 100%;
+  
+}
+
+.badge-custom-warning {
+  background-color: #F5B841; /* cor personalizada, exemplo: coral */
+  color: #fff;
+  font-weight: 600;
 }
 
 .progress {
@@ -52,30 +64,37 @@ img {
 }
 
 .progress-bar {
-  background-color: #7FE6E3;
+  background-color: #00b4d8;
+}
+
+.navbar {
+  /* background: #2d1d5e; */
+  background-color: #080331;
 }
 
 footer {
-  background: #2d1d5e;
+  /* background: #2d1d5e; */
+  background: #08033195;
+
   text-align: center;
   font-size: 0.8rem;
   padding: 5px;
 }
 
 a {
-  color: #7FE6E3;
+  color: #00b4d8;
   text-decoration: none;
 }
 
 .btn-custom {
-  background-color: #7FE6E3;
+  background-color: #00b4d8;
   color: #000;
 }
 
 .form-control,
 .form-control:focus {
   background-color: #ffffff;
-  border-color: #7FE6E3;
+  border-color: #00b4d8;
   color: black;
 }
 
@@ -83,14 +102,14 @@ a {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #7FE6E3;
+  border: 3px solid #00b4d8;
   object-fit: cover;
   margin: 20px auto;
   display: block;
 }
 
 .edu-entry {
-  border-left: 4px solid #65f8e3;
+  border-left: 4px solid #00b4d8;
   padding-left: 15px;
 }
 
@@ -100,7 +119,7 @@ a {
 }
 
 .edu-entry .institution {
-  color: #65f8e3;
+  color: #00b4d8;
   font-weight: 500;
 }
 
@@ -132,3 +151,5 @@ a {
   font-size: 0.9rem;
   border-radius: 0.5rem;
 }
+
+.badge 
