@@ -109,17 +109,19 @@ a {
 }
 
 .content-project {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
   flex-grow: 1;
   margin-bottom: 0.75rem;
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  
 }
 
 .badges-verticais {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 8px;
   padding-left: 0.5rem;
   margin-top: 1rem;
 }
